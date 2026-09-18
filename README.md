@@ -1,2 +1,13 @@
-# FabricioRodrigues
-Golang: brevíssimo algoritmo que pergunta o nome de uma pessoa e retorna o nome digitado pelo usuário.
+package main
+
+import "fmt"
+
+func main() {
+ var nome string
+ fmt.Println("Qual é o seu nome? ")
+ fmt.Scan(&nome)
+ fmt.Println("O seu nome é: ", nome)
+	
+	
+}
+
