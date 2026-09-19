@@ -6,7 +6,7 @@ var Batman string
 
 func main () {
 
-     fmt.Println("Diga o seu nome:" , nome)
+     fmt.Println("Diga o seu nome:",nome)
      fmt.Scan(&nome)
 
      if nome == "Batman" { 
