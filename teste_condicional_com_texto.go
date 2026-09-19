@@ -10,9 +10,9 @@ func main () {
      fmt.Scan(&nome)
 
      if nome == "Batman" { 
-     fmt.Println("Olá, Batman!!!")
+     fmt.Println("Olá,Batman!!!!!")
      } else {
-     fmt.Println("Olá, ", nome)
+     fmt.Println("Olá",nome)
 
 }
 
