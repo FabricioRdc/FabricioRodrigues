@@ -1,12 +1,10 @@
 package main
-
 import (
 	"bufio"
 	"fmt"
 	"os"
 	"strings"
 )
-
 func lerNomeCompleto(scanner *bufio.Scanner) string {
 	fmt.Println("Digite seu nome completo:")
 	scanner.Scan()
